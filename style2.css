@@ -1,12 +1,12 @@
-﻿html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
 }
 @font-face {
 font-family: helv;
-src:url(fonts/HelveticaNeueW23-Bd.ttf);
-src: url(fonts/HelveticaNeueW23-Bd.eot?) format(eot), url(fonts/HelveticaNeueW23-Bd.otf) format(opentype), url(fonts/HelveticaNeueW23-Bd.ttf) format(truetype);
+src:url(https://cdn.rawgit.com/WIFI2FM/fonts/master/HelveticaNeueW23-Bd.ttf);
+src: url(https://cdn.rawgit.com/WIFI2FM/fonts/master/HelveticaNeueW23-Bd.eot?) format(eot), url(https://cdn.rawgit.com/WIFI2FM/fonts/master/HelveticaNeueW23-Bd.otf) format(opentype), url(https://cdn.rawgit.com/WIFI2FM/fonts/master/HelveticaNeueW23-Bd.ttf) format(truetype);
 } 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -34,7 +34,7 @@ body {
 	direction: rtl;
 	background-color: #320b28;
 	background-attachment: fixed;
-	background-image: url(images/blue-bg.jpg);
+	background-image: url(https://cdn.rawgit.com/WIFI2FM/images/master/blue-bg.jpg);
 	background-repeat: repeat;
 	background-position: right 36px;
 }
@@ -71,7 +71,7 @@ position:fixed;
 	margin-right:10px;
 }
 #top-header .fav{
-	background-image: url(images/fav.png);
+	background-image: url(https://cdn.rawgit.com/WIFI2FM/images/master/fav.png);
 	background-repeat: no-repeat;
 	width:30px;
 	height:30px;
@@ -138,7 +138,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e4df', end
     width: 1000px;
 }
 #logo {
-	background-image: url(images/logo.png);
+	background-image: url(https://cdn.rawgit.com/WIFI2FM/images/master/logo.png);
 	background-repeat: no-repeat;
 	float: left;
 	height: 65px;
@@ -179,7 +179,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 #login .name {
     background-attachment: scroll;
-    background-image: url(images/user.jpg);
+    background-image: url(https://cdn.rawgit.com/WIFI2FM/images/master/user.jpg);
     background-position: 0 0;
     background-repeat: repeat;
     border: medium none;
@@ -209,7 +209,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	text-align: center;
     text-indent: 34px;
 	width: 230px;
-	background-image: url(images/pass.jpg);
+	background-image: url(https://cdn.rawgit.com/WIFI2FM/images/master/pass.jpg);
 }
 #login .button {
     background: #62666a; /* Old browsers */
@@ -272,7 +272,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#029dcd', end
 }
 
 .warning_box {
-    background: url(images/warning.png) no-repeat scroll 800px 10px #FCFAE9;
+    background: url(https://cdn.rawgit.com/WIFI2FM/images/master/warning.png) no-repeat scroll 800px 10px #FCFAE9;
     border: 1px solid #E9E6C7;
     clear: both;
     font: bold 11pt arial;
@@ -283,7 +283,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#029dcd', end
 
 }
 .valid_box {
-    background: url(images/valid.png) no-repeat scroll 800px 10px #EDFCE9;
+    background: url(https://cdn.rawgit.com/WIFI2FM/images/master/valid.png) no-repeat scroll 800px 10px #EDFCE9;
     border: 1px solid #CCEAC4;
     clear: both;
     font: bold 11pt arial;
@@ -295,7 +295,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#029dcd', end
 
 }
 .error_box {
-    background: url(images/error.png) no-repeat scroll 800px 10px #FCE9E9;
+    background: url(https://cdn.rawgit.com/WIFI2FM/images/master/error.png) no-repeat scroll 800px 10px #FCE9E9;
     border: 1px solid #EAC7C7;
     clear: both;
     margin: 0 0 20px 10px;
