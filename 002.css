@@ -34,7 +34,7 @@ body {
 	direction: rtl;
 	background-color: #320b28;
 	background-attachment: fixed;
-	background-image: url(https://cdn.rawgit.com/WIFI2FM/images/master/blue-bg.jpg);
+	background-image: url(../images/master/blue-bg.jpg);
 	background-repeat: repeat;
 	background-position: right 36px;
 }
